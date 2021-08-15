@@ -1,0 +1,152 @@
+*{
+    margin: auto;
+    padding: 2px;
+}
+body{
+    background-color: rgba(22, 29, 61, 0.918);
+    /* background-color: rgba(236, 198, 148, 0.692); */
+    color: cornsilk;
+    font-family:  'MonteCarlo', cursive;;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* background-color: rgba(222, 184, 135, 0.76); */
+    background-color: rgba(192, 192, 124, 0.438);
+    border-radius: 10px;
+    justify-content: space-between;
+    /* text-align: right; */
+    /* color: white; */
+}
+
+.navbar-link{
+    height: 100%;
+    /* margin-left: 50%; */
+}
+
+.navbar-link ul{
+    display: flex;  
+    /* margin-left: 50%; */
+}
+
+/* fo removing disk icon */
+
+.navbar-link li{
+    list-style: none;
+    /* text-align: right; */
+}
+
+.navbar-link a{
+    color: rgb(247, 247, 247);
+    /* for show a block */
+    display: block;
+    /* for removing underline */
+    text-decoration: none;
+    padding: 1rem;
+    /* text-align: right; */
+}
+.name{
+    margin: 5px;
+    border-radius: 50px;
+}
+
+/* for hoveing effect */
+
+.navbar-link ul li a:hover{
+    display: block;
+    text-decoration: none;
+    /* color: #ff5ea2; */
+    color: red;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 10px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    margin: .5px;
+    background-color: rgba(41, 38, 38, 0.781);
+    border-radius: 10px;
+}
+
+/* @media (max-width:400px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-link{
+        display: none;
+        width: 100%;
+    }
+    .navbar-link ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-link ul li{
+        text-align: center;
+    }
+    .navbar-link ul li a{
+        padding: .5rem 1rem;
+    }
+    .navbar-link.active{
+        display: flex;
+    }
+} */
+
+.header{
+    padding-top:5px ;
+    border-radius: 10px;
+    background-color: rgba(62, 66, 66, 0.692);
+    color: cornsilk;
+
+}
+
+/* h2{
+    color: rgb(46, 45, 45);
+} */
+
+img{
+    width: auto;
+    border-radius: 10%;
+}
+
+p.one{
+    padding-left: 10% ;
+    padding-right: 10% ; 
+    /* color: ; */
+    background-color: rgba(50, 87, 59, 0.719);
+    border-radius: 10px;
+}
+.skills{
+    background-color: rgba(50, 87, 59, 0.719);
+    border-radius: 10px;
+}
+.learn{
+    background-color: rgba(50, 87, 59, 0.719);
+    border-radius: 10px;
+}
+.icons{
+    font-size: 30px;
+    padding: 30px;
+}
+.icons a:hover{
+    
+    color: black;
+}
+
